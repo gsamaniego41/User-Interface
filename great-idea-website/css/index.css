@@ -63,4 +63,110 @@ h1, h2, h3, h4, h5 {
     margin-bottom: 15px;
 }
 
+
 /* Your code starts here! */
+
+
+
+
+
+/* GLOBAL */
+
+.container {
+	margin: 0 auto;
+	width: 880px;
+	/* border: 1px solid green; */
+}
+
+header {
+	/* border: 1px solid red; */
+	border-bottom: 2px solid #555;
+	width: 100%;
+	display: inline-block;
+	vertical-align: top;
+	margin-top: 120px;
+	height: 400px;
+	box-sizing: border-box;
+	padding-bottom: 480px;
+}
+
+img {
+	display: inline-block;
+	vertical-align: top;
+}
+
+h1 {
+	font-size: 80px;
+	text-align: center;
+	display: inline-block;
+	vertical-align: top;
+	width: 490px;
+	padding-top: 50px;
+}
+
+button {
+	border: 2px solid #999;
+	background: white;
+	padding: 3px 40px;
+	position: relative;
+	bottom: 70px;
+	left: 165px;
+	font-family: 'Titillium Web';
+	font-size: 15px;
+	cursor: pointer;
+}
+
+/* MAIN NAV */
+
+.main-nav {
+	/* border: 1px solid red; */
+	background: white;
+	z-index: 1;
+	position: fixed;
+	width: 100%;
+	padding: 30px 0;
+}
+
+.main-nav a {
+	color: #777;
+	text-decoration: none;
+	margin-right: 62px;
+	position: relative;
+	top: 10px;
+}
+
+
+/* CONTENT */
+.content {
+	/* border: 1px solid orange; */
+	margin: 45px 0;
+}
+
+#features, #about {
+	/* border: 1px solid blue; */
+	display: inline-block;
+	vertical-align: top;
+	width: 438px;
+}
+
+#services, #product, #vision {
+	display: inline-block;
+	vertical-align: top;
+	width: 290px;
+}
+
+/* FOOTER */
+.contact {
+	border-top: 2px solid #555;
+	padding: 45px 0;
+}
+
+.contact p {
+	margin-top: 24px;
+}
+
+footer {
+	margin-bottom: 100px;
+	text-align: center;
+	font-size: .8em;
+}
